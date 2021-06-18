@@ -1,10 +1,10 @@
-# Hotspot
-Hotspot is a simple wifi-hotspot in lua
+# LHotspot
+LHotspot is a simple wifi-hotspot in lua
 
 ## Screenshot
 
-![hotspot](https://github.com/sodomon2/project-screenshot/blob/master/hotspot/screenshot-1.png?raw=true)
-![hotspot-advanced](https://github.com/sodomon2/project-screenshot/blob/master/hotspot/screenshot-2.png?raw=true)
+![lhotspot](https://github.com/sodomon2/project-screenshot/blob/master/lhotspot/screenshot-1.png?raw=true)
+![lhotspot-advanced](https://github.com/sodomon2/project-screenshot/blob/master/lhotspot/screenshot-2.png?raw=true)
 
 ## Dependencies
 
