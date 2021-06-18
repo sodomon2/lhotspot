@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=LHotSpot
+Type=Application
+Exec=lhotspot
+Icon=network-wireless-hotspot
+Categories=Network;GTK;
