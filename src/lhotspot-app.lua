@@ -20,12 +20,14 @@ function ui.btn_hotspot:on_clicked()
 	os.execute("lnxrouter --ap wlan0 " .. ssid .. " -p " .. password .. " &")
 	self.sensitive = false
 	ui.btn_stop.sensitive = true
+	ui.headerbar.subtitle = 'Status: Running'
 end
 
 function ui.btn_stop:on_clicked()
 	ui.btn_hotspot.sensitive = true
 	self.sensitive = false
 	os.execute("lnxrouter --stop wlan0")
+	ui.headerbar.subtitle = 'Status: Not Running'
 end
 
 function ui.main_window:on_destroy()

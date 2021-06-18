@@ -12,11 +12,11 @@
     <property name="can_focus">False</property>
     <property name="type_hint">dialog</property>
     <child type="titlebar">
-      <object class="GtkHeaderBar">
+      <object class="GtkHeaderBar" id="headerbar">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="title" translatable="yes">LHotspot</property>
-        <property name="subtitle" translatable="yes">Status: Running</property>
+        <property name="subtitle" translatable="yes">A simple wifi-hotspot</property>
         <property name="show_close_button">True</property>
       </object>
     </child>
