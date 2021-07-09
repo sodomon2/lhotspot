@@ -32,4 +32,5 @@ end
 
 function ui.main_window:on_destroy()
 	Gtk.main_quit()
+	os.execute("lnxrouter --stop wlan0")
 end
