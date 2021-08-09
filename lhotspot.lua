@@ -19,6 +19,7 @@ ui = builder.objects
 
 -- Hotspot
 require('src.lhotspot-app')
+require('src.lhotspot-tray')
 
 ui.main_window:show_all()
 Gtk.main()
