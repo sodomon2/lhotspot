@@ -17,7 +17,11 @@ ui.entry_ssid.text = ssid
 
 function ui.btn_hotspot:on_clicked()
 	password = ui.entry_password.text
-	os.execute("lnxrouter --ap wlan0 " .. ssid .. " -p " .. password .. " &")
+	if password == password then
+		os.execute("lnxrouter --ap wlan0 " .. ssid .. " -p " .. password .. " &")
+	elseif password ~= "" then
+		os.execute("lnxrouter --ap wlan0 " .. ssid .. " &")
+	end
 	self.sensitive = false
 	ui.btn_stop.sensitive = true
 	ui.headerbar.subtitle = 'Status: Running'
